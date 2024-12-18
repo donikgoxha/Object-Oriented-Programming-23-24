@@ -7,15 +7,15 @@ private:
     int b;
 
 public:
-    //default constructor
-    Example() {
-        cout << "Default Constructor is called" << endl;
-        a = 0;
-        b = 0;
-    }
+    // //default constructor
+    // Example() {
+    //     cout << "Default Constructor is called" << endl;
+    //     a = 0;
+    //     b = 0;
+    // }
 
     //constructor with args
-    Example(int aa, int bb) {
+    Example(int aa = 0, int bb = 0) {
         cout << "Constructor with args is called" << endl;
         a = aa;
         b = bb;
@@ -50,15 +50,17 @@ public:
 
 int main() {
     Example e;
+    e.print();
     //e.a; //a is a private method
     Example e1(10, 19);
+    e1.print();
     Example e2;
     Example e3(100, 100);
-    e.print();
-    e1.print();
-    e2.print();
+    // e.print();
+    // e1.print();
     e2.setA(100);
     e2.setB(-10);
+    e2.print();
     e2.print();
     e3.print();
     return 0;

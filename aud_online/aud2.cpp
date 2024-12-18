@@ -2,6 +2,12 @@
 #include <cstring>
 using namespace std;
 
+//links to the lessons (makedonski)
+//https://finki-mk.github.io/OOP/html5/oop_av3.html
+//https://bbb-lb.finki.ukim.mk/playback/presentation/2.3/9111e1b452b190f16e6faecde632b78dd975ea9c-1615368406409?meetingId=9111e1b452b190f16e6faecde632b78dd975ea9c-1615368406409
+//https://bbb-lb.finki.ukim.mk/playback/presentation/2.3/9111e1b452b190f16e6faecde632b78dd975ea9c-1615371630474?meetingId=9111e1b452b190f16e6faecde632b78dd975ea9c-1615371630474
+
+//zadaca 2
 enum Type {
     employee, //0
     manager, //1
