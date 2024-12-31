@@ -1435,8 +1435,8 @@ build aud10.exe: CXX_EXECUTABLE_LINKER__aud10_Debug CMakeFiles/aud10.dir/aud_onl
 
 build cmake_object_order_depends_target_aud11: phony || .
 
-build CMakeFiles/aud11.dir/aud_online/aud11.cpp.obj: CXX_COMPILER__aud11_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/aud_online/aud11.cpp || cmake_object_order_depends_target_aud11
-  DEP_FILE = CMakeFiles\aud11.dir\aud_online\aud11.cpp.obj.d
+build CMakeFiles/aud11.dir/aud_online/zad1_prv_kolokvium_vezhbi.cpp.obj: CXX_COMPILER__aud11_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/aud_online/zad1_prv_kolokvium_vezhbi.cpp || cmake_object_order_depends_target_aud11
+  DEP_FILE = CMakeFiles\aud11.dir\aud_online\zad1_prv_kolokvium_vezhbi.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\aud11.dir
   OBJECT_FILE_DIR = CMakeFiles\aud11.dir\aud_online
@@ -1449,7 +1449,7 @@ build CMakeFiles/aud11.dir/aud_online/aud11.cpp.obj: CXX_COMPILER__aud11_unscann
 #############################################
 # Link the executable aud11.exe
 
-build aud11.exe: CXX_EXECUTABLE_LINKER__aud11_Debug CMakeFiles/aud11.dir/aud_online/aud11.cpp.obj
+build aud11.exe: CXX_EXECUTABLE_LINKER__aud11_Debug CMakeFiles/aud11.dir/aud_online/zad1_prv_kolokvium_vezhbi.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\aud11.dir
