@@ -60,7 +60,7 @@ public:
     CreditAccount(char *owner = "no owner", char *accountNumber = "111111111111111", double balance = 0.0,
                   double limit = 10000) : DebitAccount(owner, accountNumber, balance) {
         this->limit = limit;
-        this->debt =
+        //this->debt =
     }
 };
 
