@@ -1097,204 +1097,6 @@ build ispitna31.exe: CXX_EXECUTABLE_LINKER__ispitna31_Debug CMakeFiles/ispitna31
   TARGET_PDB = ispitna31.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target aud11
-
-
-#############################################
-# Order-only phony target for aud11
-
-build cmake_object_order_depends_target_aud11: phony || .
-
-build CMakeFiles/aud11.dir/aud_online/kolokviumski/zad1_prv_kolokvium_vezhbi.cpp.obj: CXX_COMPILER__aud11_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/aud_online/kolokviumski/zad1_prv_kolokvium_vezhbi.cpp || cmake_object_order_depends_target_aud11
-  DEP_FILE = CMakeFiles\aud11.dir\aud_online\kolokviumski\zad1_prv_kolokvium_vezhbi.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\aud11.dir
-  OBJECT_FILE_DIR = CMakeFiles\aud11.dir\aud_online\kolokviumski
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target aud11
-
-
-#############################################
-# Link the executable aud11.exe
-
-build aud11.exe: CXX_EXECUTABLE_LINKER__aud11_Debug CMakeFiles/aud11.dir/aud_online/kolokviumski/zad1_prv_kolokvium_vezhbi.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\aud11.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = aud11.exe
-  TARGET_IMPLIB = libaud11.dll.a
-  TARGET_PDB = aud11.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target aud12
-
-
-#############################################
-# Order-only phony target for aud12
-
-build cmake_object_order_depends_target_aud12: phony || .
-
-build CMakeFiles/aud12.dir/aud_online/kolokviumski/aud12.cpp.obj: CXX_COMPILER__aud12_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/aud_online/kolokviumski/aud12.cpp || cmake_object_order_depends_target_aud12
-  DEP_FILE = CMakeFiles\aud12.dir\aud_online\kolokviumski\aud12.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\aud12.dir
-  OBJECT_FILE_DIR = CMakeFiles\aud12.dir\aud_online\kolokviumski
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target aud12
-
-
-#############################################
-# Link the executable aud12.exe
-
-build aud12.exe: CXX_EXECUTABLE_LINKER__aud12_Debug CMakeFiles/aud12.dir/aud_online/kolokviumski/aud12.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\aud12.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = aud12.exe
-  TARGET_IMPLIB = libaud12.dll.a
-  TARGET_PDB = aud12.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target aud13
-
-
-#############################################
-# Order-only phony target for aud13
-
-build cmake_object_order_depends_target_aud13: phony || .
-
-build CMakeFiles/aud13.dir/aud_online/kolokviumski/aud13.cpp.obj: CXX_COMPILER__aud13_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/aud_online/kolokviumski/aud13.cpp || cmake_object_order_depends_target_aud13
-  DEP_FILE = CMakeFiles\aud13.dir\aud_online\kolokviumski\aud13.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\aud13.dir
-  OBJECT_FILE_DIR = CMakeFiles\aud13.dir\aud_online\kolokviumski
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target aud13
-
-
-#############################################
-# Link the executable aud13.exe
-
-build aud13.exe: CXX_EXECUTABLE_LINKER__aud13_Debug CMakeFiles/aud13.dir/aud_online/kolokviumski/aud13.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\aud13.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = aud13.exe
-  TARGET_IMPLIB = libaud13.dll.a
-  TARGET_PDB = aud13.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target aud21
-
-
-#############################################
-# Order-only phony target for aud21
-
-build cmake_object_order_depends_target_aud21: phony || .
-
-build CMakeFiles/aud21.dir/aud_online/kvali-sept/aud21.cpp.obj: CXX_COMPILER__aud21_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/aud_online/kvali-sept/aud21.cpp || cmake_object_order_depends_target_aud21
-  DEP_FILE = CMakeFiles\aud21.dir\aud_online\kvali-sept\aud21.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\aud21.dir
-  OBJECT_FILE_DIR = CMakeFiles\aud21.dir\aud_online\kvali-sept
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target aud21
-
-
-#############################################
-# Link the executable aud21.exe
-
-build aud21.exe: CXX_EXECUTABLE_LINKER__aud21_Debug CMakeFiles/aud21.dir/aud_online/kvali-sept/aud21.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\aud21.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = aud21.exe
-  TARGET_IMPLIB = libaud21.dll.a
-  TARGET_PDB = aud21.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target aud22
-
-
-#############################################
-# Order-only phony target for aud22
-
-build cmake_object_order_depends_target_aud22: phony || .
-
-build CMakeFiles/aud22.dir/aud_online/kvali-sept/aud22.cpp.obj: CXX_COMPILER__aud22_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/aud_online/kvali-sept/aud22.cpp || cmake_object_order_depends_target_aud22
-  DEP_FILE = CMakeFiles\aud22.dir\aud_online\kvali-sept\aud22.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\aud22.dir
-  OBJECT_FILE_DIR = CMakeFiles\aud22.dir\aud_online\kvali-sept
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target aud22
-
-
-#############################################
-# Link the executable aud22.exe
-
-build aud22.exe: CXX_EXECUTABLE_LINKER__aud22_Debug CMakeFiles/aud22.dir/aud_online/kvali-sept/aud22.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\aud22.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = aud22.exe
-  TARGET_IMPLIB = libaud22.dll.a
-  TARGET_PDB = aud22.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target aud23
-
-
-#############################################
-# Order-only phony target for aud23
-
-build cmake_object_order_depends_target_aud23: phony || .
-
-build CMakeFiles/aud23.dir/aud_online/kvali-sept/aud23.cpp.obj: CXX_COMPILER__aud23_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/aud_online/kvali-sept/aud23.cpp || cmake_object_order_depends_target_aud23
-  DEP_FILE = CMakeFiles\aud23.dir\aud_online\kvali-sept\aud23.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\aud23.dir
-  OBJECT_FILE_DIR = CMakeFiles\aud23.dir\aud_online\kvali-sept
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target aud23
-
-
-#############################################
-# Link the executable aud23.exe
-
-build aud23.exe: CXX_EXECUTABLE_LINKER__aud23_Debug CMakeFiles/aud23.dir/aud_online/kvali-sept/aud23.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\aud23.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = aud23.exe
-  TARGET_IMPLIB = libaud23.dll.a
-  TARGET_PDB = aud23.exe.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target aud1
 
 
@@ -2087,6 +1889,204 @@ build aud30.exe: CXX_EXECUTABLE_LINKER__aud30_Debug CMakeFiles/aud30.dir/aud_onl
   TARGET_PDB = aud30.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target aud21
+
+
+#############################################
+# Order-only phony target for aud21
+
+build cmake_object_order_depends_target_aud21: phony || .
+
+build CMakeFiles/aud21.dir/aud_online/kvali-sept/aud21.cpp.obj: CXX_COMPILER__aud21_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/aud_online/kvali-sept/aud21.cpp || cmake_object_order_depends_target_aud21
+  DEP_FILE = CMakeFiles\aud21.dir\aud_online\kvali-sept\aud21.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\aud21.dir
+  OBJECT_FILE_DIR = CMakeFiles\aud21.dir\aud_online\kvali-sept
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target aud21
+
+
+#############################################
+# Link the executable aud21.exe
+
+build aud21.exe: CXX_EXECUTABLE_LINKER__aud21_Debug CMakeFiles/aud21.dir/aud_online/kvali-sept/aud21.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\aud21.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = aud21.exe
+  TARGET_IMPLIB = libaud21.dll.a
+  TARGET_PDB = aud21.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target aud22
+
+
+#############################################
+# Order-only phony target for aud22
+
+build cmake_object_order_depends_target_aud22: phony || .
+
+build CMakeFiles/aud22.dir/aud_online/kvali-sept/aud22.cpp.obj: CXX_COMPILER__aud22_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/aud_online/kvali-sept/aud22.cpp || cmake_object_order_depends_target_aud22
+  DEP_FILE = CMakeFiles\aud22.dir\aud_online\kvali-sept\aud22.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\aud22.dir
+  OBJECT_FILE_DIR = CMakeFiles\aud22.dir\aud_online\kvali-sept
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target aud22
+
+
+#############################################
+# Link the executable aud22.exe
+
+build aud22.exe: CXX_EXECUTABLE_LINKER__aud22_Debug CMakeFiles/aud22.dir/aud_online/kvali-sept/aud22.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\aud22.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = aud22.exe
+  TARGET_IMPLIB = libaud22.dll.a
+  TARGET_PDB = aud22.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target aud23
+
+
+#############################################
+# Order-only phony target for aud23
+
+build cmake_object_order_depends_target_aud23: phony || .
+
+build CMakeFiles/aud23.dir/aud_online/kvali-sept/aud23.cpp.obj: CXX_COMPILER__aud23_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/aud_online/kvali-sept/aud23.cpp || cmake_object_order_depends_target_aud23
+  DEP_FILE = CMakeFiles\aud23.dir\aud_online\kvali-sept\aud23.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\aud23.dir
+  OBJECT_FILE_DIR = CMakeFiles\aud23.dir\aud_online\kvali-sept
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target aud23
+
+
+#############################################
+# Link the executable aud23.exe
+
+build aud23.exe: CXX_EXECUTABLE_LINKER__aud23_Debug CMakeFiles/aud23.dir/aud_online/kvali-sept/aud23.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\aud23.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = aud23.exe
+  TARGET_IMPLIB = libaud23.dll.a
+  TARGET_PDB = aud23.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target aud11
+
+
+#############################################
+# Order-only phony target for aud11
+
+build cmake_object_order_depends_target_aud11: phony || .
+
+build CMakeFiles/aud11.dir/aud_online/kolokviumski/aud11.cpp.obj: CXX_COMPILER__aud11_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/aud_online/kolokviumski/aud11.cpp || cmake_object_order_depends_target_aud11
+  DEP_FILE = CMakeFiles\aud11.dir\aud_online\kolokviumski\aud11.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\aud11.dir
+  OBJECT_FILE_DIR = CMakeFiles\aud11.dir\aud_online\kolokviumski
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target aud11
+
+
+#############################################
+# Link the executable aud11.exe
+
+build aud11.exe: CXX_EXECUTABLE_LINKER__aud11_Debug CMakeFiles/aud11.dir/aud_online/kolokviumski/aud11.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\aud11.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = aud11.exe
+  TARGET_IMPLIB = libaud11.dll.a
+  TARGET_PDB = aud11.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target aud12
+
+
+#############################################
+# Order-only phony target for aud12
+
+build cmake_object_order_depends_target_aud12: phony || .
+
+build CMakeFiles/aud12.dir/aud_online/kolokviumski/aud12.cpp.obj: CXX_COMPILER__aud12_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/aud_online/kolokviumski/aud12.cpp || cmake_object_order_depends_target_aud12
+  DEP_FILE = CMakeFiles\aud12.dir\aud_online\kolokviumski\aud12.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\aud12.dir
+  OBJECT_FILE_DIR = CMakeFiles\aud12.dir\aud_online\kolokviumski
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target aud12
+
+
+#############################################
+# Link the executable aud12.exe
+
+build aud12.exe: CXX_EXECUTABLE_LINKER__aud12_Debug CMakeFiles/aud12.dir/aud_online/kolokviumski/aud12.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\aud12.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = aud12.exe
+  TARGET_IMPLIB = libaud12.dll.a
+  TARGET_PDB = aud12.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target aud13
+
+
+#############################################
+# Order-only phony target for aud13
+
+build cmake_object_order_depends_target_aud13: phony || .
+
+build CMakeFiles/aud13.dir/aud_online/kolokviumski/aud13.cpp.obj: CXX_COMPILER__aud13_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/aud_online/kolokviumski/aud13.cpp || cmake_object_order_depends_target_aud13
+  DEP_FILE = CMakeFiles\aud13.dir\aud_online\kolokviumski\aud13.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\aud13.dir
+  OBJECT_FILE_DIR = CMakeFiles\aud13.dir\aud_online\kolokviumski
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target aud13
+
+
+#############################################
+# Link the executable aud13.exe
+
+build aud13.exe: CXX_EXECUTABLE_LINKER__aud13_Debug CMakeFiles/aud13.dir/aud_online/kolokviumski/aud13.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\aud13.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = aud13.exe
+  TARGET_IMPLIB = libaud13.dll.a
+  TARGET_PDB = aud13.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target aud31
 
 
@@ -2095,11 +2095,11 @@ build aud30.exe: CXX_EXECUTABLE_LINKER__aud30_Debug CMakeFiles/aud30.dir/aud_onl
 
 build cmake_object_order_depends_target_aud31: phony || .
 
-build CMakeFiles/aud31.dir/aud_online/aud31.cpp.obj: CXX_COMPILER__aud31_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/aud_online/aud31.cpp || cmake_object_order_depends_target_aud31
-  DEP_FILE = CMakeFiles\aud31.dir\aud_online\aud31.cpp.obj.d
+build CMakeFiles/aud31.dir/aud_online/kolokviumski/aud31.cpp.obj: CXX_COMPILER__aud31_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/aud_online/kolokviumski/aud31.cpp || cmake_object_order_depends_target_aud31
+  DEP_FILE = CMakeFiles\aud31.dir\aud_online\kolokviumski\aud31.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\aud31.dir
-  OBJECT_FILE_DIR = CMakeFiles\aud31.dir\aud_online
+  OBJECT_FILE_DIR = CMakeFiles\aud31.dir\aud_online\kolokviumski
 
 
 # =============================================================================
@@ -2109,7 +2109,7 @@ build CMakeFiles/aud31.dir/aud_online/aud31.cpp.obj: CXX_COMPILER__aud31_unscann
 #############################################
 # Link the executable aud31.exe
 
-build aud31.exe: CXX_EXECUTABLE_LINKER__aud31_Debug CMakeFiles/aud31.dir/aud_online/aud31.cpp.obj
+build aud31.exe: CXX_EXECUTABLE_LINKER__aud31_Debug CMakeFiles/aud31.dir/aud_online/kolokviumski/aud31.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\aud31.dir
@@ -2128,11 +2128,11 @@ build aud31.exe: CXX_EXECUTABLE_LINKER__aud31_Debug CMakeFiles/aud31.dir/aud_onl
 
 build cmake_object_order_depends_target_aud32: phony || .
 
-build CMakeFiles/aud32.dir/aud_online/aud32.cpp.obj: CXX_COMPILER__aud32_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/aud_online/aud32.cpp || cmake_object_order_depends_target_aud32
-  DEP_FILE = CMakeFiles\aud32.dir\aud_online\aud32.cpp.obj.d
+build CMakeFiles/aud32.dir/aud_online/kolokviumski/aud32.cpp.obj: CXX_COMPILER__aud32_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/aud_online/kolokviumski/aud32.cpp || cmake_object_order_depends_target_aud32
+  DEP_FILE = CMakeFiles\aud32.dir\aud_online\kolokviumski\aud32.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\aud32.dir
-  OBJECT_FILE_DIR = CMakeFiles\aud32.dir\aud_online
+  OBJECT_FILE_DIR = CMakeFiles\aud32.dir\aud_online\kolokviumski
 
 
 # =============================================================================
@@ -2142,7 +2142,7 @@ build CMakeFiles/aud32.dir/aud_online/aud32.cpp.obj: CXX_COMPILER__aud32_unscann
 #############################################
 # Link the executable aud32.exe
 
-build aud32.exe: CXX_EXECUTABLE_LINKER__aud32_Debug CMakeFiles/aud32.dir/aud_online/aud32.cpp.obj
+build aud32.exe: CXX_EXECUTABLE_LINKER__aud32_Debug CMakeFiles/aud32.dir/aud_online/kolokviumski/aud32.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\aud32.dir
@@ -2161,11 +2161,11 @@ build aud32.exe: CXX_EXECUTABLE_LINKER__aud32_Debug CMakeFiles/aud32.dir/aud_onl
 
 build cmake_object_order_depends_target_aud33: phony || .
 
-build CMakeFiles/aud33.dir/aud_online/aud33.cpp.obj: CXX_COMPILER__aud33_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/aud_online/aud33.cpp || cmake_object_order_depends_target_aud33
-  DEP_FILE = CMakeFiles\aud33.dir\aud_online\aud33.cpp.obj.d
+build CMakeFiles/aud33.dir/aud_online/labs_courses/aud33.cpp.obj: CXX_COMPILER__aud33_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/aud_online/labs_courses/aud33.cpp || cmake_object_order_depends_target_aud33
+  DEP_FILE = CMakeFiles\aud33.dir\aud_online\labs_courses\aud33.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\aud33.dir
-  OBJECT_FILE_DIR = CMakeFiles\aud33.dir\aud_online
+  OBJECT_FILE_DIR = CMakeFiles\aud33.dir\aud_online\labs_courses
 
 
 # =============================================================================
@@ -2175,7 +2175,7 @@ build CMakeFiles/aud33.dir/aud_online/aud33.cpp.obj: CXX_COMPILER__aud33_unscann
 #############################################
 # Link the executable aud33.exe
 
-build aud33.exe: CXX_EXECUTABLE_LINKER__aud33_Debug CMakeFiles/aud33.dir/aud_online/aud33.cpp.obj
+build aud33.exe: CXX_EXECUTABLE_LINKER__aud33_Debug CMakeFiles/aud33.dir/aud_online/labs_courses/aud33.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\aud33.dir
@@ -2194,11 +2194,11 @@ build aud33.exe: CXX_EXECUTABLE_LINKER__aud33_Debug CMakeFiles/aud33.dir/aud_onl
 
 build cmake_object_order_depends_target_aud34: phony || .
 
-build CMakeFiles/aud34.dir/aud_online/aud34.cpp.obj: CXX_COMPILER__aud34_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/aud_online/aud34.cpp || cmake_object_order_depends_target_aud34
-  DEP_FILE = CMakeFiles\aud34.dir\aud_online\aud34.cpp.obj.d
+build CMakeFiles/aud34.dir/aud_online/labs_courses/aud34.cpp.obj: CXX_COMPILER__aud34_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/aud_online/labs_courses/aud34.cpp || cmake_object_order_depends_target_aud34
+  DEP_FILE = CMakeFiles\aud34.dir\aud_online\labs_courses\aud34.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\aud34.dir
-  OBJECT_FILE_DIR = CMakeFiles\aud34.dir\aud_online
+  OBJECT_FILE_DIR = CMakeFiles\aud34.dir\aud_online\labs_courses
 
 
 # =============================================================================
@@ -2208,7 +2208,7 @@ build CMakeFiles/aud34.dir/aud_online/aud34.cpp.obj: CXX_COMPILER__aud34_unscann
 #############################################
 # Link the executable aud34.exe
 
-build aud34.exe: CXX_EXECUTABLE_LINKER__aud34_Debug CMakeFiles/aud34.dir/aud_online/aud34.cpp.obj
+build aud34.exe: CXX_EXECUTABLE_LINKER__aud34_Debug CMakeFiles/aud34.dir/aud_online/labs_courses/aud34.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\aud34.dir
@@ -2227,11 +2227,11 @@ build aud34.exe: CXX_EXECUTABLE_LINKER__aud34_Debug CMakeFiles/aud34.dir/aud_onl
 
 build cmake_object_order_depends_target_aud35: phony || .
 
-build CMakeFiles/aud35.dir/aud_online/aud35.cpp.obj: CXX_COMPILER__aud35_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/aud_online/aud35.cpp || cmake_object_order_depends_target_aud35
-  DEP_FILE = CMakeFiles\aud35.dir\aud_online\aud35.cpp.obj.d
+build CMakeFiles/aud35.dir/aud_online/labs_courses/aud35.cpp.obj: CXX_COMPILER__aud35_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/aud_online/labs_courses/aud35.cpp || cmake_object_order_depends_target_aud35
+  DEP_FILE = CMakeFiles\aud35.dir\aud_online\labs_courses\aud35.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\aud35.dir
-  OBJECT_FILE_DIR = CMakeFiles\aud35.dir\aud_online
+  OBJECT_FILE_DIR = CMakeFiles\aud35.dir\aud_online\labs_courses
 
 
 # =============================================================================
@@ -2241,7 +2241,7 @@ build CMakeFiles/aud35.dir/aud_online/aud35.cpp.obj: CXX_COMPILER__aud35_unscann
 #############################################
 # Link the executable aud35.exe
 
-build aud35.exe: CXX_EXECUTABLE_LINKER__aud35_Debug CMakeFiles/aud35.dir/aud_online/aud35.cpp.obj
+build aud35.exe: CXX_EXECUTABLE_LINKER__aud35_Debug CMakeFiles/aud35.dir/aud_online/labs_courses/aud35.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\aud35.dir
@@ -2260,11 +2260,11 @@ build aud35.exe: CXX_EXECUTABLE_LINKER__aud35_Debug CMakeFiles/aud35.dir/aud_onl
 
 build cmake_object_order_depends_target_aud36: phony || .
 
-build CMakeFiles/aud36.dir/aud_online/aud36.cpp.obj: CXX_COMPILER__aud36_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/aud_online/aud36.cpp || cmake_object_order_depends_target_aud36
-  DEP_FILE = CMakeFiles\aud36.dir\aud_online\aud36.cpp.obj.d
+build CMakeFiles/aud36.dir/aud_online/labs_courses/aud36.cpp.obj: CXX_COMPILER__aud36_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/aud_online/labs_courses/aud36.cpp || cmake_object_order_depends_target_aud36
+  DEP_FILE = CMakeFiles\aud36.dir\aud_online\labs_courses\aud36.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\aud36.dir
-  OBJECT_FILE_DIR = CMakeFiles\aud36.dir\aud_online
+  OBJECT_FILE_DIR = CMakeFiles\aud36.dir\aud_online\labs_courses
 
 
 # =============================================================================
@@ -2274,7 +2274,7 @@ build CMakeFiles/aud36.dir/aud_online/aud36.cpp.obj: CXX_COMPILER__aud36_unscann
 #############################################
 # Link the executable aud36.exe
 
-build aud36.exe: CXX_EXECUTABLE_LINKER__aud36_Debug CMakeFiles/aud36.dir/aud_online/aud36.cpp.obj
+build aud36.exe: CXX_EXECUTABLE_LINKER__aud36_Debug CMakeFiles/aud36.dir/aud_online/labs_courses/aud36.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\aud36.dir
@@ -2293,11 +2293,11 @@ build aud36.exe: CXX_EXECUTABLE_LINKER__aud36_Debug CMakeFiles/aud36.dir/aud_onl
 
 build cmake_object_order_depends_target_aud37: phony || .
 
-build CMakeFiles/aud37.dir/aud_online/aud37.cpp.obj: CXX_COMPILER__aud37_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/aud_online/aud37.cpp || cmake_object_order_depends_target_aud37
-  DEP_FILE = CMakeFiles\aud37.dir\aud_online\aud37.cpp.obj.d
+build CMakeFiles/aud37.dir/aud_online/labs_courses/aud37.cpp.obj: CXX_COMPILER__aud37_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/aud_online/labs_courses/aud37.cpp || cmake_object_order_depends_target_aud37
+  DEP_FILE = CMakeFiles\aud37.dir\aud_online\labs_courses\aud37.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\aud37.dir
-  OBJECT_FILE_DIR = CMakeFiles\aud37.dir\aud_online
+  OBJECT_FILE_DIR = CMakeFiles\aud37.dir\aud_online\labs_courses
 
 
 # =============================================================================
@@ -2307,7 +2307,7 @@ build CMakeFiles/aud37.dir/aud_online/aud37.cpp.obj: CXX_COMPILER__aud37_unscann
 #############################################
 # Link the executable aud37.exe
 
-build aud37.exe: CXX_EXECUTABLE_LINKER__aud37_Debug CMakeFiles/aud37.dir/aud_online/aud37.cpp.obj
+build aud37.exe: CXX_EXECUTABLE_LINKER__aud37_Debug CMakeFiles/aud37.dir/aud_online/labs_courses/aud37.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\aud37.dir
@@ -2944,7 +2944,7 @@ build oop23_24: phony oop23_24.exe
 #############################################
 # Folder: D:/documents/CLASSES/oop/oop23-24/cmake-build-debug
 
-build all: phony oop23_24.exe ispitna1.exe ispitna2.exe ispitna3.exe ispitna4.exe ispitna5.exe ispitna6.exe ispitna7.exe ispitna8.exe ispitna9.exe ispitna10.exe ispitna11.exe ispitna12.exe ispitna13.exe ispitna14.exe ispitna15.exe ispitna16.exe ispitna17.exe ispitna18.exe ispitna19.exe ispitna20.exe ispitna21.exe ispitna22.exe ispitna23.exe ispitna24.exe ispitna25.exe ispitna26.exe ispitna27.exe ispitna28.exe ispitna29.exe ispitna30.exe ispitna31.exe aud11.exe aud12.exe aud13.exe aud21.exe aud22.exe aud23.exe aud1.exe aud2.exe aud3.exe aud4.exe aud5.exe aud6.exe aud7.exe aud8.exe aud9.exe aud10.exe aud14.exe aud15.exe aud16.exe aud17.exe aud18.exe aud19.exe aud20.exe aud24.exe aud25.exe aud26.exe aud27.exe aud28.exe aud29.exe aud30.exe aud31.exe aud32.exe aud33.exe aud34.exe aud35.exe aud36.exe aud37.exe aud38.exe aud39.exe aud40.exe aud41.exe aud42.exe aud43.exe aud44.exe aud45.exe aud46.exe aud47.exe aud48.exe aud49.exe aud50.exe
+build all: phony oop23_24.exe ispitna1.exe ispitna2.exe ispitna3.exe ispitna4.exe ispitna5.exe ispitna6.exe ispitna7.exe ispitna8.exe ispitna9.exe ispitna10.exe ispitna11.exe ispitna12.exe ispitna13.exe ispitna14.exe ispitna15.exe ispitna16.exe ispitna17.exe ispitna18.exe ispitna19.exe ispitna20.exe ispitna21.exe ispitna22.exe ispitna23.exe ispitna24.exe ispitna25.exe ispitna26.exe ispitna27.exe ispitna28.exe ispitna29.exe ispitna30.exe ispitna31.exe aud1.exe aud2.exe aud3.exe aud4.exe aud5.exe aud6.exe aud7.exe aud8.exe aud9.exe aud10.exe aud14.exe aud15.exe aud16.exe aud17.exe aud18.exe aud19.exe aud20.exe aud24.exe aud25.exe aud26.exe aud27.exe aud28.exe aud29.exe aud30.exe aud21.exe aud22.exe aud23.exe aud11.exe aud12.exe aud13.exe aud31.exe aud32.exe aud33.exe aud34.exe aud35.exe aud36.exe aud37.exe aud38.exe aud39.exe aud40.exe aud41.exe aud42.exe aud43.exe aud44.exe aud45.exe aud46.exe aud47.exe aud48.exe aud49.exe aud50.exe
 
 # =============================================================================
 # Built-in targets

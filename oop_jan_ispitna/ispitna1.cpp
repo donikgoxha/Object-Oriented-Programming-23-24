@@ -2,7 +2,6 @@
 #include <cstring>
 using namespace std;
 
-
 class Book {
 protected:
     char ISBN[21];
