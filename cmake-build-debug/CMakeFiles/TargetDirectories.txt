@@ -30,6 +30,12 @@ D:/documents/CLASSES/oop/oop23-24/cmake-build-debug/CMakeFiles/ispitna28.dir
 D:/documents/CLASSES/oop/oop23-24/cmake-build-debug/CMakeFiles/ispitna29.dir
 D:/documents/CLASSES/oop/oop23-24/cmake-build-debug/CMakeFiles/ispitna30.dir
 D:/documents/CLASSES/oop/oop23-24/cmake-build-debug/CMakeFiles/ispitna31.dir
+D:/documents/CLASSES/oop/oop23-24/cmake-build-debug/CMakeFiles/aud11.dir
+D:/documents/CLASSES/oop/oop23-24/cmake-build-debug/CMakeFiles/aud12.dir
+D:/documents/CLASSES/oop/oop23-24/cmake-build-debug/CMakeFiles/aud13.dir
+D:/documents/CLASSES/oop/oop23-24/cmake-build-debug/CMakeFiles/aud21.dir
+D:/documents/CLASSES/oop/oop23-24/cmake-build-debug/CMakeFiles/aud22.dir
+D:/documents/CLASSES/oop/oop23-24/cmake-build-debug/CMakeFiles/aud23.dir
 D:/documents/CLASSES/oop/oop23-24/cmake-build-debug/CMakeFiles/aud1.dir
 D:/documents/CLASSES/oop/oop23-24/cmake-build-debug/CMakeFiles/aud2.dir
 D:/documents/CLASSES/oop/oop23-24/cmake-build-debug/CMakeFiles/aud3.dir
@@ -40,9 +46,6 @@ D:/documents/CLASSES/oop/oop23-24/cmake-build-debug/CMakeFiles/aud7.dir
 D:/documents/CLASSES/oop/oop23-24/cmake-build-debug/CMakeFiles/aud8.dir
 D:/documents/CLASSES/oop/oop23-24/cmake-build-debug/CMakeFiles/aud9.dir
 D:/documents/CLASSES/oop/oop23-24/cmake-build-debug/CMakeFiles/aud10.dir
-D:/documents/CLASSES/oop/oop23-24/cmake-build-debug/CMakeFiles/aud11.dir
-D:/documents/CLASSES/oop/oop23-24/cmake-build-debug/CMakeFiles/aud12.dir
-D:/documents/CLASSES/oop/oop23-24/cmake-build-debug/CMakeFiles/aud13.dir
 D:/documents/CLASSES/oop/oop23-24/cmake-build-debug/CMakeFiles/aud14.dir
 D:/documents/CLASSES/oop/oop23-24/cmake-build-debug/CMakeFiles/aud15.dir
 D:/documents/CLASSES/oop/oop23-24/cmake-build-debug/CMakeFiles/aud16.dir
@@ -50,9 +53,6 @@ D:/documents/CLASSES/oop/oop23-24/cmake-build-debug/CMakeFiles/aud17.dir
 D:/documents/CLASSES/oop/oop23-24/cmake-build-debug/CMakeFiles/aud18.dir
 D:/documents/CLASSES/oop/oop23-24/cmake-build-debug/CMakeFiles/aud19.dir
 D:/documents/CLASSES/oop/oop23-24/cmake-build-debug/CMakeFiles/aud20.dir
-D:/documents/CLASSES/oop/oop23-24/cmake-build-debug/CMakeFiles/aud21.dir
-D:/documents/CLASSES/oop/oop23-24/cmake-build-debug/CMakeFiles/aud22.dir
-D:/documents/CLASSES/oop/oop23-24/cmake-build-debug/CMakeFiles/aud23.dir
 D:/documents/CLASSES/oop/oop23-24/cmake-build-debug/CMakeFiles/aud24.dir
 D:/documents/CLASSES/oop/oop23-24/cmake-build-debug/CMakeFiles/aud25.dir
 D:/documents/CLASSES/oop/oop23-24/cmake-build-debug/CMakeFiles/aud26.dir
