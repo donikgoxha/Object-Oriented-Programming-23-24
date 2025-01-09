@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstring>
 using namespace std;
-
+//zad1 ispitni/kolokviumski
 class Book {
 protected:
     char ISBN[21];

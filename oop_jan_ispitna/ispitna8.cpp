@@ -3,6 +3,7 @@
 #include <cstdlib>
 
 using namespace std;
+//zad10 ispitni/kolokviumski
 
 class NegativnaVrednost {
 public:

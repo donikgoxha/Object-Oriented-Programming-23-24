@@ -2,6 +2,7 @@
 #include <cstring>
 
 using namespace std;
+//zad6 ispitni/kolokviumski
 
 class ExistingGame {
 private:

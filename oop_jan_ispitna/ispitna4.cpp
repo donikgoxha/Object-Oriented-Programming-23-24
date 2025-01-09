@@ -2,6 +2,7 @@
 #include <cstring>
 
 using namespace std;
+//zad5 ispitni/kolokviumski
 
 const int MAX = 50;
 

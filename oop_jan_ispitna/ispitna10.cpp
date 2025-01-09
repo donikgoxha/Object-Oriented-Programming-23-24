@@ -1,7 +1,8 @@
 #include <iostream>
 #include <cstring>
-
 using namespace std;
+
+//zad12 ispitni/kolokviumski
 
 enum tip { SMARTPHONE, LAPTOP };
 
@@ -16,7 +17,7 @@ class Device {
     char model[100];
     tip type;
     int productionYear;
-    static float basicCheckHours;
+    static int basicCheckHours;
 
 public:
     Device(char *model = "", tip type = SMARTPHONE, int productionYear = 0) {
@@ -35,7 +36,7 @@ public:
             totalHours += 2;
         }
         if (productionYear > 2015) {
-            totalHours += 1.5;
+            totalHours += 2;
         }
         return totalHours;
     }
@@ -114,7 +115,7 @@ public:
 };
 
 
-float Device::basicCheckHours = 1;
+int Device::basicCheckHours = 1;
 
 
 int main() {

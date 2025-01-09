@@ -1,10 +1,12 @@
 #include <iostream>
-#include <string.h>
+#include <cstring>
 using namespace std;
+
+//zad9 ispitni/kolokviumski
 
 class Exception {
 public:
-    const char *message() const {
+    char *message() {
         return "Ne moze da se vnese dadeniot trud";
     }
 };
@@ -102,6 +104,7 @@ public:
         if (p != nullptr) {
             for (int i = 0; i < numPapers; i++) {
                 if (p[i].getYear() < enrollmentYear) {
+                    delete[] papers;
                     throw Exception();
                 }
                 papers[i] = p[i];
@@ -139,7 +142,7 @@ public:
             temp[i] = papers[i];
         }
         temp[numPapers++] = t;
-        delete [] papers;
+        delete[] papers;
         papers = temp;
         return *this;
     }
@@ -330,12 +333,14 @@ int main() {
             Trud t(tip, god_tr);
             trud[j] = t;
         }
+        //PhDStudent phd(ime, indeks, god, oceni, n, trud, n_tr);
         try {
             PhDStudent phd(ime, indeks, god, oceni, n, trud, n_tr);
             cout << phd;
         } catch (Exception &e) {
             cout << e.message() << endl;
         }
+        //cout << phd;
     }
     if (testCase == 5) {
         cout << "===== Testiranje na isklucoci ======" << endl;

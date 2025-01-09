@@ -1,6 +1,8 @@
-#include <cstring>
 #include <iostream>
+#include <cstring>
 using namespace std;
+
+//zad4 ispitni/kolokviumski
 
 enum Size { SMALL, LARGE, FAMILY };
 

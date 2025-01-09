@@ -1,6 +1,7 @@
 #include<iostream>
 #include<string.h>
 using namespace std;
+//zad7 ispitni/kolokviumski
 
 class OutOfBoundException {
 public:

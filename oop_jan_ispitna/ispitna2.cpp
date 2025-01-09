@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string.h>
 using namespace std;
+//zad2 ispitni/kolokviumski
 
 class Vozac {
 protected:

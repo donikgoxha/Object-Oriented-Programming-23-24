@@ -1,6 +1,7 @@
 #include<iostream>
 #include<string.h>
 using namespace std;
+//zad11 ispitni/kolokviumski
 
 class Delo {
 private:
