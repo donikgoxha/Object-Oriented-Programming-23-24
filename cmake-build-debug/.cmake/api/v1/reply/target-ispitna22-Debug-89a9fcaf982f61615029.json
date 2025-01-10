@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "ispitna20.exe"
+			"path" : "ispitna22.exe"
 		},
 		{
-			"path" : "ispitna20.pdb"
+			"path" : "ispitna22.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 27,
+				"line" : 29,
 				"parent" : 0
 			}
 		]
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "ispitna20::@6890427a1f51a3e7e1df",
+	"id" : "ispitna22::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "ispitna20",
-	"nameOnDisk" : "ispitna20.exe",
+	"name" : "ispitna22",
+	"nameOnDisk" : "ispitna22.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -98,7 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "oop_jan_ispitna/ispitna20.cpp",
+			"path" : "oop_jan_ispitna/ispitna22_eng.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

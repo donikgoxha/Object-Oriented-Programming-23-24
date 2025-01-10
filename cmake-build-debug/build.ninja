@@ -643,8 +643,8 @@ build ispitna17.exe: CXX_EXECUTABLE_LINKER__ispitna17_Debug CMakeFiles/ispitna17
 
 build cmake_object_order_depends_target_ispitna18: phony || .
 
-build CMakeFiles/ispitna18.dir/oop_jan_ispitna/ispitna18.cpp.obj: CXX_COMPILER__ispitna18_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/oop_jan_ispitna/ispitna18.cpp || cmake_object_order_depends_target_ispitna18
-  DEP_FILE = CMakeFiles\ispitna18.dir\oop_jan_ispitna\ispitna18.cpp.obj.d
+build CMakeFiles/ispitna18.dir/oop_jan_ispitna/ispitna18_eng.cpp.obj: CXX_COMPILER__ispitna18_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/oop_jan_ispitna/ispitna18_eng.cpp || cmake_object_order_depends_target_ispitna18
+  DEP_FILE = CMakeFiles\ispitna18.dir\oop_jan_ispitna\ispitna18_eng.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ispitna18.dir
   OBJECT_FILE_DIR = CMakeFiles\ispitna18.dir\oop_jan_ispitna
@@ -657,7 +657,7 @@ build CMakeFiles/ispitna18.dir/oop_jan_ispitna/ispitna18.cpp.obj: CXX_COMPILER__
 #############################################
 # Link the executable ispitna18.exe
 
-build ispitna18.exe: CXX_EXECUTABLE_LINKER__ispitna18_Debug CMakeFiles/ispitna18.dir/oop_jan_ispitna/ispitna18.cpp.obj
+build ispitna18.exe: CXX_EXECUTABLE_LINKER__ispitna18_Debug CMakeFiles/ispitna18.dir/oop_jan_ispitna/ispitna18_eng.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ispitna18.dir
@@ -676,8 +676,8 @@ build ispitna18.exe: CXX_EXECUTABLE_LINKER__ispitna18_Debug CMakeFiles/ispitna18
 
 build cmake_object_order_depends_target_ispitna19: phony || .
 
-build CMakeFiles/ispitna19.dir/oop_jan_ispitna/ispitna19.cpp.obj: CXX_COMPILER__ispitna19_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/oop_jan_ispitna/ispitna19.cpp || cmake_object_order_depends_target_ispitna19
-  DEP_FILE = CMakeFiles\ispitna19.dir\oop_jan_ispitna\ispitna19.cpp.obj.d
+build CMakeFiles/ispitna19.dir/oop_jan_ispitna/ispitna19_eng.cpp.obj: CXX_COMPILER__ispitna19_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/oop_jan_ispitna/ispitna19_eng.cpp || cmake_object_order_depends_target_ispitna19
+  DEP_FILE = CMakeFiles\ispitna19.dir\oop_jan_ispitna\ispitna19_eng.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ispitna19.dir
   OBJECT_FILE_DIR = CMakeFiles\ispitna19.dir\oop_jan_ispitna
@@ -690,7 +690,7 @@ build CMakeFiles/ispitna19.dir/oop_jan_ispitna/ispitna19.cpp.obj: CXX_COMPILER__
 #############################################
 # Link the executable ispitna19.exe
 
-build ispitna19.exe: CXX_EXECUTABLE_LINKER__ispitna19_Debug CMakeFiles/ispitna19.dir/oop_jan_ispitna/ispitna19.cpp.obj
+build ispitna19.exe: CXX_EXECUTABLE_LINKER__ispitna19_Debug CMakeFiles/ispitna19.dir/oop_jan_ispitna/ispitna19_eng.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ispitna19.dir
@@ -709,8 +709,8 @@ build ispitna19.exe: CXX_EXECUTABLE_LINKER__ispitna19_Debug CMakeFiles/ispitna19
 
 build cmake_object_order_depends_target_ispitna20: phony || .
 
-build CMakeFiles/ispitna20.dir/oop_jan_ispitna/ispitna20.cpp.obj: CXX_COMPILER__ispitna20_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/oop_jan_ispitna/ispitna20.cpp || cmake_object_order_depends_target_ispitna20
-  DEP_FILE = CMakeFiles\ispitna20.dir\oop_jan_ispitna\ispitna20.cpp.obj.d
+build CMakeFiles/ispitna20.dir/oop_jan_ispitna/ispitna20_eng.cpp.obj: CXX_COMPILER__ispitna20_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/oop_jan_ispitna/ispitna20_eng.cpp || cmake_object_order_depends_target_ispitna20
+  DEP_FILE = CMakeFiles\ispitna20.dir\oop_jan_ispitna\ispitna20_eng.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ispitna20.dir
   OBJECT_FILE_DIR = CMakeFiles\ispitna20.dir\oop_jan_ispitna
@@ -723,7 +723,7 @@ build CMakeFiles/ispitna20.dir/oop_jan_ispitna/ispitna20.cpp.obj: CXX_COMPILER__
 #############################################
 # Link the executable ispitna20.exe
 
-build ispitna20.exe: CXX_EXECUTABLE_LINKER__ispitna20_Debug CMakeFiles/ispitna20.dir/oop_jan_ispitna/ispitna20.cpp.obj
+build ispitna20.exe: CXX_EXECUTABLE_LINKER__ispitna20_Debug CMakeFiles/ispitna20.dir/oop_jan_ispitna/ispitna20_eng.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ispitna20.dir
@@ -742,8 +742,8 @@ build ispitna20.exe: CXX_EXECUTABLE_LINKER__ispitna20_Debug CMakeFiles/ispitna20
 
 build cmake_object_order_depends_target_ispitna21: phony || .
 
-build CMakeFiles/ispitna21.dir/oop_jan_ispitna/ispitna21.cpp.obj: CXX_COMPILER__ispitna21_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/oop_jan_ispitna/ispitna21.cpp || cmake_object_order_depends_target_ispitna21
-  DEP_FILE = CMakeFiles\ispitna21.dir\oop_jan_ispitna\ispitna21.cpp.obj.d
+build CMakeFiles/ispitna21.dir/oop_jan_ispitna/ispitna21_eng.cpp.obj: CXX_COMPILER__ispitna21_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/oop_jan_ispitna/ispitna21_eng.cpp || cmake_object_order_depends_target_ispitna21
+  DEP_FILE = CMakeFiles\ispitna21.dir\oop_jan_ispitna\ispitna21_eng.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ispitna21.dir
   OBJECT_FILE_DIR = CMakeFiles\ispitna21.dir\oop_jan_ispitna
@@ -756,7 +756,7 @@ build CMakeFiles/ispitna21.dir/oop_jan_ispitna/ispitna21.cpp.obj: CXX_COMPILER__
 #############################################
 # Link the executable ispitna21.exe
 
-build ispitna21.exe: CXX_EXECUTABLE_LINKER__ispitna21_Debug CMakeFiles/ispitna21.dir/oop_jan_ispitna/ispitna21.cpp.obj
+build ispitna21.exe: CXX_EXECUTABLE_LINKER__ispitna21_Debug CMakeFiles/ispitna21.dir/oop_jan_ispitna/ispitna21_eng.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ispitna21.dir
@@ -775,8 +775,8 @@ build ispitna21.exe: CXX_EXECUTABLE_LINKER__ispitna21_Debug CMakeFiles/ispitna21
 
 build cmake_object_order_depends_target_ispitna22: phony || .
 
-build CMakeFiles/ispitna22.dir/oop_jan_ispitna/ispitna22.cpp.obj: CXX_COMPILER__ispitna22_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/oop_jan_ispitna/ispitna22.cpp || cmake_object_order_depends_target_ispitna22
-  DEP_FILE = CMakeFiles\ispitna22.dir\oop_jan_ispitna\ispitna22.cpp.obj.d
+build CMakeFiles/ispitna22.dir/oop_jan_ispitna/ispitna22_eng.cpp.obj: CXX_COMPILER__ispitna22_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/oop_jan_ispitna/ispitna22_eng.cpp || cmake_object_order_depends_target_ispitna22
+  DEP_FILE = CMakeFiles\ispitna22.dir\oop_jan_ispitna\ispitna22_eng.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ispitna22.dir
   OBJECT_FILE_DIR = CMakeFiles\ispitna22.dir\oop_jan_ispitna
@@ -789,7 +789,7 @@ build CMakeFiles/ispitna22.dir/oop_jan_ispitna/ispitna22.cpp.obj: CXX_COMPILER__
 #############################################
 # Link the executable ispitna22.exe
 
-build ispitna22.exe: CXX_EXECUTABLE_LINKER__ispitna22_Debug CMakeFiles/ispitna22.dir/oop_jan_ispitna/ispitna22.cpp.obj
+build ispitna22.exe: CXX_EXECUTABLE_LINKER__ispitna22_Debug CMakeFiles/ispitna22.dir/oop_jan_ispitna/ispitna22_eng.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ispitna22.dir
@@ -808,8 +808,8 @@ build ispitna22.exe: CXX_EXECUTABLE_LINKER__ispitna22_Debug CMakeFiles/ispitna22
 
 build cmake_object_order_depends_target_ispitna23: phony || .
 
-build CMakeFiles/ispitna23.dir/oop_jan_ispitna/ispitna23.cpp.obj: CXX_COMPILER__ispitna23_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/oop_jan_ispitna/ispitna23.cpp || cmake_object_order_depends_target_ispitna23
-  DEP_FILE = CMakeFiles\ispitna23.dir\oop_jan_ispitna\ispitna23.cpp.obj.d
+build CMakeFiles/ispitna23.dir/oop_jan_ispitna/ispitna23_eng.cpp.obj: CXX_COMPILER__ispitna23_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/oop_jan_ispitna/ispitna23_eng.cpp || cmake_object_order_depends_target_ispitna23
+  DEP_FILE = CMakeFiles\ispitna23.dir\oop_jan_ispitna\ispitna23_eng.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ispitna23.dir
   OBJECT_FILE_DIR = CMakeFiles\ispitna23.dir\oop_jan_ispitna
@@ -822,7 +822,7 @@ build CMakeFiles/ispitna23.dir/oop_jan_ispitna/ispitna23.cpp.obj: CXX_COMPILER__
 #############################################
 # Link the executable ispitna23.exe
 
-build ispitna23.exe: CXX_EXECUTABLE_LINKER__ispitna23_Debug CMakeFiles/ispitna23.dir/oop_jan_ispitna/ispitna23.cpp.obj
+build ispitna23.exe: CXX_EXECUTABLE_LINKER__ispitna23_Debug CMakeFiles/ispitna23.dir/oop_jan_ispitna/ispitna23_eng.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ispitna23.dir
@@ -841,8 +841,8 @@ build ispitna23.exe: CXX_EXECUTABLE_LINKER__ispitna23_Debug CMakeFiles/ispitna23
 
 build cmake_object_order_depends_target_ispitna24: phony || .
 
-build CMakeFiles/ispitna24.dir/oop_jan_ispitna/ispitna24.cpp.obj: CXX_COMPILER__ispitna24_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/oop_jan_ispitna/ispitna24.cpp || cmake_object_order_depends_target_ispitna24
-  DEP_FILE = CMakeFiles\ispitna24.dir\oop_jan_ispitna\ispitna24.cpp.obj.d
+build CMakeFiles/ispitna24.dir/oop_jan_ispitna/ispitna24_eng.cpp.obj: CXX_COMPILER__ispitna24_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/oop_jan_ispitna/ispitna24_eng.cpp || cmake_object_order_depends_target_ispitna24
+  DEP_FILE = CMakeFiles\ispitna24.dir\oop_jan_ispitna\ispitna24_eng.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ispitna24.dir
   OBJECT_FILE_DIR = CMakeFiles\ispitna24.dir\oop_jan_ispitna
@@ -855,7 +855,7 @@ build CMakeFiles/ispitna24.dir/oop_jan_ispitna/ispitna24.cpp.obj: CXX_COMPILER__
 #############################################
 # Link the executable ispitna24.exe
 
-build ispitna24.exe: CXX_EXECUTABLE_LINKER__ispitna24_Debug CMakeFiles/ispitna24.dir/oop_jan_ispitna/ispitna24.cpp.obj
+build ispitna24.exe: CXX_EXECUTABLE_LINKER__ispitna24_Debug CMakeFiles/ispitna24.dir/oop_jan_ispitna/ispitna24_eng.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ispitna24.dir
@@ -874,8 +874,8 @@ build ispitna24.exe: CXX_EXECUTABLE_LINKER__ispitna24_Debug CMakeFiles/ispitna24
 
 build cmake_object_order_depends_target_ispitna25: phony || .
 
-build CMakeFiles/ispitna25.dir/oop_jan_ispitna/ispitna25.cpp.obj: CXX_COMPILER__ispitna25_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/oop_jan_ispitna/ispitna25.cpp || cmake_object_order_depends_target_ispitna25
-  DEP_FILE = CMakeFiles\ispitna25.dir\oop_jan_ispitna\ispitna25.cpp.obj.d
+build CMakeFiles/ispitna25.dir/oop_jan_ispitna/ispitna25_eng.cpp.obj: CXX_COMPILER__ispitna25_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/oop_jan_ispitna/ispitna25_eng.cpp || cmake_object_order_depends_target_ispitna25
+  DEP_FILE = CMakeFiles\ispitna25.dir\oop_jan_ispitna\ispitna25_eng.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ispitna25.dir
   OBJECT_FILE_DIR = CMakeFiles\ispitna25.dir\oop_jan_ispitna
@@ -888,7 +888,7 @@ build CMakeFiles/ispitna25.dir/oop_jan_ispitna/ispitna25.cpp.obj: CXX_COMPILER__
 #############################################
 # Link the executable ispitna25.exe
 
-build ispitna25.exe: CXX_EXECUTABLE_LINKER__ispitna25_Debug CMakeFiles/ispitna25.dir/oop_jan_ispitna/ispitna25.cpp.obj
+build ispitna25.exe: CXX_EXECUTABLE_LINKER__ispitna25_Debug CMakeFiles/ispitna25.dir/oop_jan_ispitna/ispitna25_eng.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ispitna25.dir
@@ -907,8 +907,8 @@ build ispitna25.exe: CXX_EXECUTABLE_LINKER__ispitna25_Debug CMakeFiles/ispitna25
 
 build cmake_object_order_depends_target_ispitna26: phony || .
 
-build CMakeFiles/ispitna26.dir/oop_jan_ispitna/ispitna26.cpp.obj: CXX_COMPILER__ispitna26_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/oop_jan_ispitna/ispitna26.cpp || cmake_object_order_depends_target_ispitna26
-  DEP_FILE = CMakeFiles\ispitna26.dir\oop_jan_ispitna\ispitna26.cpp.obj.d
+build CMakeFiles/ispitna26.dir/oop_jan_ispitna/ispitna26_eng.cpp.obj: CXX_COMPILER__ispitna26_unscanned_Debug D$:/documents/CLASSES/oop/oop23-24/oop_jan_ispitna/ispitna26_eng.cpp || cmake_object_order_depends_target_ispitna26
+  DEP_FILE = CMakeFiles\ispitna26.dir\oop_jan_ispitna\ispitna26_eng.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ispitna26.dir
   OBJECT_FILE_DIR = CMakeFiles\ispitna26.dir\oop_jan_ispitna
@@ -921,7 +921,7 @@ build CMakeFiles/ispitna26.dir/oop_jan_ispitna/ispitna26.cpp.obj: CXX_COMPILER__
 #############################################
 # Link the executable ispitna26.exe
 
-build ispitna26.exe: CXX_EXECUTABLE_LINKER__ispitna26_Debug CMakeFiles/ispitna26.dir/oop_jan_ispitna/ispitna26.cpp.obj
+build ispitna26.exe: CXX_EXECUTABLE_LINKER__ispitna26_Debug CMakeFiles/ispitna26.dir/oop_jan_ispitna/ispitna26_eng.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ispitna26.dir
