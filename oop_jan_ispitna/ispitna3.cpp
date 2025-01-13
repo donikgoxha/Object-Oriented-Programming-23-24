@@ -22,7 +22,7 @@ public:
     virtual float getPrice() const = 0;
 
     float price() const {
-        return basePrice;
+        return getPrice();
     }
 
     virtual void print(ostream &out) const = 0;

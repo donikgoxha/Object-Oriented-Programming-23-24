@@ -13,7 +13,7 @@ protected:
 
 public:
     Image(const char *ime = "untitled", const char *sopstvenik = "unknown", int sirina = 800, int visina = 800) {
-        this->ime = new char[strlen(ime) + 1];
+        this->ime = new char[strlen(ime)];
         strcpy(this->ime, ime);
         strcpy(this->sopstvenik, sopstvenik);
         this->sirina = sirina;
@@ -33,8 +33,8 @@ public:
     }
 
     virtual int fileSize() {
-        return sirina * visina * 3;
-    }
+        return visina * sirina * 3;
+    };
 
     friend ostream &operator<<(ostream &os, Image &i) {
         os << i.ime << " " << i.sopstvenik << " " << i.fileSize() << endl;
@@ -57,10 +57,11 @@ public:
         this->hasTransparency = hasTransparency;
     }
 
-    int fileSize() override {
-        if (hasTransparency)
-            return sirina * visina * 4;
-        return (sirina * visina) + (sirina * visina) / 8;
+    int fileSize() {
+        if (hasTransparency) {
+            return 4 * visina * sirina;
+        } else
+            return visina * sirina + (visina * sirina) / 8;
     }
 };
 
@@ -80,17 +81,20 @@ public:
 
     int folderSize() const {
         int size = 0;
-        for (int i = 0; i < brojSliki; i++)
+        for (int i = 0; i < brojSliki; i++) {
             size += sliki[i]->fileSize();
+        }
         return size;
     }
 
     Image *getMaxFile() {
         if (brojSliki == 0) return nullptr;
         Image *max = sliki[0];
-        for (int i = 1; i < brojSliki; i++)
-            if (sliki[i]->fileSize() > max->fileSize())
+        for (int i = 1; i < brojSliki; i++) {
+            if (sliki[i]->fileSize() > max->fileSize()) {
                 max = sliki[i];
+            }
+        }
         return max;
     }
 

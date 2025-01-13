@@ -66,8 +66,6 @@ public:
         return weeklyIncome() > other.weeklyIncome();
     }
 
-    //TO DO operator +
-
 
     friend ostream &operator<<(ostream &os, const ChocolateFactory &cf) {
         for (int i = 0; i < cf.numProducts; i++) {
@@ -75,6 +73,27 @@ public:
         }
         os << "$" << cf.weeklyIncome() << "/wk" << endl;
         return os;
+    }
+
+    ChocolateFactory operator+(const ChocolateFactory &other) const {
+        int newSize = numProducts + other.numProducts;
+        Chocolate *newProducts = new Chocolate[newSize];
+        int *newProduction = new int[newSize];
+
+        for (int i = 0; i < numProducts; i++) {
+            newProducts[i] = products[i];
+            newProduction[i] = weeklyProduction[i];
+        }
+
+        for (int i = 0; i < other.numProducts; i++) {
+            newProducts[numProducts + i] = other.products[i];
+            newProduction[numProducts + i] = other.weeklyProduction[i];
+        }
+
+        ChocolateFactory result(newProducts, newProduction, newSize);
+        delete[] newProducts;
+        delete[] newProduction;
+        return result;
     }
 };
 
@@ -138,6 +157,6 @@ int main() {
         }
         ChocolateFactory cf2 = ChocolateFactory(products, weeklyProduction, 5);
 
-        //cout << cf1 + cf2;
+        cout << cf1 + cf2;
     }
 }

@@ -2,7 +2,8 @@
 #include <cstring>
 class CharSequence;
 using namespace std;
-// your code here
+//zad3 ispitni/kolokviumski eng
+
 
 class Character {
 private:
@@ -12,8 +13,9 @@ public:
     Character(char c = '\0') : c(c) {
     }
 
-    char getChar() const { return c; }
     void setChar(char newC) { c = newC; }
+    char getChar() const { return c; }
+
 
     bool operator==(const Character &other) const {
         return c == other.c;

@@ -2,6 +2,7 @@
 #include<cstdio>
 #include <string.h>
 using namespace std;
+//zad6 ispitni/kolokviumski eng
 
 class Camera {
 protected:
@@ -121,6 +122,7 @@ const char *mostExpensiveCamera(Camera *cameras[], int numCameras) {
     if (numCameras == 0) {
         return nullptr;
     }
+
 
     int maxIndex = 0;
     for (int i = 0; i < numCameras; ++i) {

@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string.h>
 using namespace std;
+//zad7 ispitni/kolokviumski eng
+
 
 class DonaciskiApel {
 protected:
@@ -63,7 +65,7 @@ public:
         int difference1 = neededFund - collectedFund;
         int difference2 = other.neededFund - other.collectedFund;
         if (difference1 == difference2) {
-            return strcmp(idNumber, other.idNumber) > 0;
+            return strcmp(idNumber, other.idNumber) < 0;
         }
         return difference1 < difference2;
     }

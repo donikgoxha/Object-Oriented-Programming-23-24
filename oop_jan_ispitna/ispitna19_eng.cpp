@@ -2,6 +2,7 @@
 #include<string.h>
 #include<string>
 using namespace std;
+//zad2 ispitni/kolokviumski eng
 
 // Your code here
 
